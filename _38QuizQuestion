@@ -1,0 +1,20 @@
+package Replit;
+
+import java.util.Scanner;
+
+public class _38QuizQuestion {
+    public static void main(String[] args) {
+        Scanner str = new Scanner(System.in);
+        System.out.println("what is the farthest planet in the solar system: a)venus b)pluto c)neptune");
+        String soru = str.next();
+        if (soru.equals("a")) { System.out.println("a is wrong");
+        }
+        else  if (soru.equals("b")) { System.out.println("b is correct");
+        }
+        else  if (soru.equals("c")) { System.out.println("c is wrong");
+        }
+        else { System.out.println(soru+" is not a valid answer");
+        }
+
+    }
+}
