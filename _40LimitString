@@ -1,0 +1,14 @@
+package Replit;
+import java.util.Scanner;
+public class _40LimitString {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter string message and index number:");
+        String str = scan.nextLine();
+        int x = scan.nextInt();
+        coverString(str,x);
+    }
+    public static void coverString(String a, int b){
+        System.out.println("limitStr = " + a.substring(0,b));
+    }
+}
