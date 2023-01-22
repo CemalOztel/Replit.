@@ -1,0 +1,32 @@
+package Replit;
+
+import java.util.Scanner;
+
+public class _37_MiddleOne {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String word = scan.nextLine();
+
+
+        int str = word.length();
+
+        if(str % 2 != 0) {
+            if(str >= 3) {
+                System.out.println(word.charAt(str/2));
+            }
+            else {
+                System.out.println(word.repeat(3));
+            }
+        }
+        else {
+            if(str >= 4) {
+                System.out.println("" + word.charAt((str/2)-1) + word.charAt(str/2));
+            }
+            else {
+                System.out.println(word.repeat(2));
+            }
+        }
+
+    }
+
+    }
