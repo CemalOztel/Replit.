@@ -1,0 +1,15 @@
+package Replit;
+
+public class _39CoverInString {
+    public static void main(String[] args) {
+coverString("java methods","me");
+    }
+    public static void coverString(String a, String b){
+if (a.contains(b)){
+
+    System.out.println(a.replace(b,"["+b+"]"));
+}else{
+    System.out.println(a.replace(a, "["+a+"]"));
+    }
+}
+}
