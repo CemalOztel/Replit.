@@ -1,4 +1,48 @@
 package Replit;
+/*# Middle One  
+
+      * Question has 2 section:
+   
+1. When word has odd number of characters and;
+
+    * Has 3 or more characters, print middle letter
+        
+        example:
+        
+		 ``oak`` ==> ``a``
+
+		 ``javav`` ==> ``v``
+
+   *	Single character, print that character 3 times
+       	
+      	example:
+
+        ``X`` ==>``xxx``
+       	
+      	``q`` ==> ``qqq``
+
+ 2. When word has even number of characters and:
+      * 4 or more characters, print middle 2
+        
+        example:
+        
+        ``java`` ==> ``av``
+        
+        ``apples`` ==> ``pl``
+
+        ``#$%^&*`` ==> ``%^``
+
+     * 2 characters, print 
+    those 2 characters twice
+       
+       example:
+
+        ``@@`` ==>``@@@@``
+       
+       ``$$`` ==>``$$$$``
+       
+	     ``hi`` ==> ``hihi``*/
+
 
 import java.util.Scanner;
 
